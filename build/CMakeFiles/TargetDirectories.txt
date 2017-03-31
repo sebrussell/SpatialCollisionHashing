@@ -1,0 +1,3 @@
+G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/parallel_test.dir
+G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/edit_cache.dir
+G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/rebuild_cache.dir
