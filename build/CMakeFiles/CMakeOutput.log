@@ -28,32 +28,32 @@ The CXX compiler identification is GNU, found in "G:/GitHub/SpatialCollisionHash
 Determining if the C compiler works passed with the following output:
 Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_e1ae3/fast"
-G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_e1ae3.dir\build.make CMakeFiles/cmTC_e1ae3.dir/build
+Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_f5250/fast"
+G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_f5250.dir\build.make CMakeFiles/cmTC_f5250.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e1ae3.dir/testCCompiler.c.obj
-G:\Compilers\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_e1ae3.dir\testCCompiler.c.obj   -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_e1ae3.exe
-G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e1ae3.dir\link.txt --verbose=1
-G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_e1ae3.dir/objects.a
-G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_e1ae3.dir/objects.a @CMakeFiles\cmTC_e1ae3.dir\objects1.rsp
-G:\Compilers\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_e1ae3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e1ae3.exe -Wl,--out-implib,libcmTC_e1ae3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e1ae3.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_f5250.dir/testCCompiler.c.obj
+G:\Compilers\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_f5250.dir\testCCompiler.c.obj   -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_f5250.exe
+G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f5250.dir\link.txt --verbose=1
+G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_f5250.dir/objects.a
+G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_f5250.dir/objects.a @CMakeFiles\cmTC_f5250.dir\objects1.rsp
+G:\Compilers\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_f5250.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f5250.exe -Wl,--out-implib,libcmTC_f5250.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f5250.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_2274f/fast"
-G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_2274f.dir\build.make CMakeFiles/cmTC_2274f.dir/build
+Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_47729/fast"
+G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_47729.dir\build.make CMakeFiles/cmTC_47729.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2274f.dir/CMakeCCompilerABI.c.obj
-G:\Compilers\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_2274f.dir\CMakeCCompilerABI.c.obj   -c G:\Compilers\cmake\share\cmake-3.8\Modules\CMakeCCompilerABI.c
-Linking C executable cmTC_2274f.exe
-G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_2274f.dir\link.txt --verbose=1
-G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_2274f.dir/objects.a
-G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_2274f.dir/objects.a @CMakeFiles\cmTC_2274f.dir\objects1.rsp
-G:\Compilers\mingw32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_2274f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2274f.exe -Wl,--out-implib,libcmTC_2274f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building C object CMakeFiles/cmTC_47729.dir/CMakeCCompilerABI.c.obj
+G:\Compilers\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_47729.dir\CMakeCCompilerABI.c.obj   -c G:\Compilers\cmake\share\cmake-3.8\Modules\CMakeCCompilerABI.c
+Linking C executable cmTC_47729.exe
+G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_47729.dir\link.txt --verbose=1
+G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_47729.dir/objects.a
+G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_47729.dir/objects.a @CMakeFiles\cmTC_47729.dir\objects1.rsp
+G:\Compilers\mingw32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_47729.dir/objects.a -Wl,--no-whole-archive  -o cmTC_47729.exe -Wl,--out-implib,libcmTC_47729.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=G:\Compilers\mingw32\bin\gcc.exe
 COLLECT_LTO_WRAPPER=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe
@@ -63,8 +63,8 @@ Thread model: posix
 gcc version 4.9.1 (i686-posix-dwarf-rev2, Built by MinGW-W64 project) 
 COMPILER_PATH=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/;G:/Compilers/mingw32/bin/../libexec/gcc/;G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/;G:/Compilers/mingw32/bin/../lib/gcc/;G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/;G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib/;G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/;G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2274f.exe' '-mtune=generic' '-march=i686'
- G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/collect2.exe -plugin G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/liblto_plugin-0.dll -plugin-opt=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccHDqx4v.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw491/i686-491-posix-dwarf-rt_v3-rev2/mingw32 -m i386pe -Bdynamic -o cmTC_2274f.exe G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtbegin.o -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1 -LG:/Compilers/mingw32/bin/../lib/gcc -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../.. --whole-archive CMakeFiles\cmTC_2274f.dir/objects.a --no-whole-archive --out-implib libcmTC_2274f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47729.exe' '-mtune=generic' '-march=i686'
+ G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/collect2.exe -plugin G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/liblto_plugin-0.dll -plugin-opt=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccNKg7aa.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw491/i686-491-posix-dwarf-rt_v3-rev2/mingw32 -m i386pe -Bdynamic -o cmTC_47729.exe G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtbegin.o -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1 -LG:/Compilers/mingw32/bin/../lib/gcc -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../.. --whole-archive CMakeFiles\cmTC_47729.dir/objects.a --no-whole-archive --out-implib libcmTC_47729.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtend.o
 mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
 
 
@@ -72,16 +72,16 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_2274f/fast"]
-  ignore line: [G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_2274f.dir\build.make CMakeFiles/cmTC_2274f.dir/build]
+  ignore line: [Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_47729/fast"]
+  ignore line: [G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_47729.dir\build.make CMakeFiles/cmTC_47729.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_2274f.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [G:\Compilers\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_2274f.dir\CMakeCCompilerABI.c.obj   -c G:\Compilers\cmake\share\cmake-3.8\Modules\CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_2274f.exe]
-  ignore line: [G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_2274f.dir\link.txt --verbose=1]
-  ignore line: [G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_2274f.dir/objects.a]
-  ignore line: [G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_2274f.dir/objects.a @CMakeFiles\cmTC_2274f.dir\objects1.rsp]
-  ignore line: [G:\Compilers\mingw32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_2274f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2274f.exe -Wl,--out-implib,libcmTC_2274f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Building C object CMakeFiles/cmTC_47729.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [G:\Compilers\mingw32\bin\gcc.exe    -o CMakeFiles\cmTC_47729.dir\CMakeCCompilerABI.c.obj   -c G:\Compilers\cmake\share\cmake-3.8\Modules\CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_47729.exe]
+  ignore line: [G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_47729.dir\link.txt --verbose=1]
+  ignore line: [G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_47729.dir/objects.a]
+  ignore line: [G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_47729.dir/objects.a @CMakeFiles\cmTC_47729.dir\objects1.rsp]
+  ignore line: [G:\Compilers\mingw32\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_47729.dir/objects.a -Wl,--no-whole-archive  -o cmTC_47729.exe -Wl,--out-implib,libcmTC_47729.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=G:\Compilers\mingw32\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe]
@@ -98,13 +98,13 @@ Parsed C implicit link information from above output:
   ignore line: [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib/]
   ignore line: [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/]
   ignore line: [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2274f.exe' '-mtune=generic' '-march=i686']
-  link line: [ G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/collect2.exe -plugin G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/liblto_plugin-0.dll -plugin-opt=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccHDqx4v.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw491/i686-491-posix-dwarf-rt_v3-rev2/mingw32 -m i386pe -Bdynamic -o cmTC_2274f.exe G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtbegin.o -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1 -LG:/Compilers/mingw32/bin/../lib/gcc -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../.. --whole-archive CMakeFiles\cmTC_2274f.dir/objects.a --no-whole-archive --out-implib libcmTC_2274f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47729.exe' '-mtune=generic' '-march=i686']
+  link line: [ G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/collect2.exe -plugin G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/liblto_plugin-0.dll -plugin-opt=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccNKg7aa.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw491/i686-491-posix-dwarf-rt_v3-rev2/mingw32 -m i386pe -Bdynamic -o cmTC_47729.exe G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtbegin.o -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1 -LG:/Compilers/mingw32/bin/../lib/gcc -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../.. --whole-archive CMakeFiles\cmTC_47729.dir/objects.a --no-whole-archive --out-implib libcmTC_47729.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtend.o]
     arg [G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccHDqx4v.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccNKg7aa.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -128,7 +128,7 @@ Parsed C implicit link information from above output:
     arg [i386pe] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2274f.exe] ==> ignore
+    arg [cmTC_47729.exe] ==> ignore
     arg [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtbegin.o] ==> ignore
     arg [-LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1] ==> dir [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1]
@@ -138,10 +138,10 @@ Parsed C implicit link information from above output:
     arg [-LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib] ==> dir [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib]
     arg [-LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../..] ==> dir [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_2274f.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_47729.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_2274f.dll.a] ==> ignore
+    arg [libcmTC_47729.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -185,16 +185,16 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_1a0cd/fast"
-G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_1a0cd.dir\build.make CMakeFiles/cmTC_1a0cd.dir/build
+Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_80843/fast"
+G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_80843.dir\build.make CMakeFiles/cmTC_80843.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1a0cd.dir/feature_tests.c.obj
-G:\Compilers\mingw32\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_1a0cd.dir\feature_tests.c.obj   -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.c
-Linking C executable cmTC_1a0cd.exe
-G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1a0cd.dir\link.txt --verbose=1
-G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_1a0cd.dir/objects.a
-G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_1a0cd.dir/objects.a @CMakeFiles\cmTC_1a0cd.dir\objects1.rsp
-G:\Compilers\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_1a0cd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1a0cd.exe -Wl,--out-implib,libcmTC_1a0cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1a0cd.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_80843.dir/feature_tests.c.obj
+G:\Compilers\mingw32\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_80843.dir\feature_tests.c.obj   -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.c
+Linking C executable cmTC_80843.exe
+G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_80843.dir\link.txt --verbose=1
+G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_80843.dir/objects.a
+G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_80843.dir/objects.a @CMakeFiles\cmTC_80843.dir\objects1.rsp
+G:\Compilers\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_80843.dir/objects.a -Wl,--no-whole-archive  -o cmTC_80843.exe -Wl,--out-implib,libcmTC_80843.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_80843.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
 
 
@@ -207,16 +207,16 @@ mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_4ee01/fast"
-G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_4ee01.dir\build.make CMakeFiles/cmTC_4ee01.dir/build
+Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_154d3/fast"
+G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_154d3.dir\build.make CMakeFiles/cmTC_154d3.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4ee01.dir/feature_tests.c.obj
-G:\Compilers\mingw32\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_4ee01.dir\feature_tests.c.obj   -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.c
-Linking C executable cmTC_4ee01.exe
-G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_4ee01.dir\link.txt --verbose=1
-G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_4ee01.dir/objects.a
-G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_4ee01.dir/objects.a @CMakeFiles\cmTC_4ee01.dir\objects1.rsp
-G:\Compilers\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_4ee01.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4ee01.exe -Wl,--out-implib,libcmTC_4ee01.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4ee01.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_154d3.dir/feature_tests.c.obj
+G:\Compilers\mingw32\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_154d3.dir\feature_tests.c.obj   -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.c
+Linking C executable cmTC_154d3.exe
+G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_154d3.dir\link.txt --verbose=1
+G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_154d3.dir/objects.a
+G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_154d3.dir/objects.a @CMakeFiles\cmTC_154d3.dir\objects1.rsp
+G:\Compilers\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_154d3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_154d3.exe -Wl,--out-implib,libcmTC_154d3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_154d3.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
 
 
@@ -229,16 +229,16 @@ mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_3ad70/fast"
-G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_3ad70.dir\build.make CMakeFiles/cmTC_3ad70.dir/build
+Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_e978b/fast"
+G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_e978b.dir\build.make CMakeFiles/cmTC_e978b.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3ad70.dir/feature_tests.c.obj
-G:\Compilers\mingw32\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_3ad70.dir\feature_tests.c.obj   -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.c
-Linking C executable cmTC_3ad70.exe
-G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_3ad70.dir\link.txt --verbose=1
-G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_3ad70.dir/objects.a
-G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_3ad70.dir/objects.a @CMakeFiles\cmTC_3ad70.dir\objects1.rsp
-G:\Compilers\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_3ad70.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3ad70.exe -Wl,--out-implib,libcmTC_3ad70.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3ad70.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_e978b.dir/feature_tests.c.obj
+G:\Compilers\mingw32\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_e978b.dir\feature_tests.c.obj   -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.c
+Linking C executable cmTC_e978b.exe
+G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e978b.dir\link.txt --verbose=1
+G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_e978b.dir/objects.a
+G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_e978b.dir/objects.a @CMakeFiles\cmTC_e978b.dir\objects1.rsp
+G:\Compilers\mingw32\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_e978b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e978b.exe -Wl,--out-implib,libcmTC_e978b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e978b.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
 
 
@@ -249,32 +249,32 @@ mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/
 Determining if the CXX compiler works passed with the following output:
 Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_5e4a9/fast"
-G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_5e4a9.dir\build.make CMakeFiles/cmTC_5e4a9.dir/build
+Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_8080f/fast"
+G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_8080f.dir\build.make CMakeFiles/cmTC_8080f.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5e4a9.dir/testCXXCompiler.cxx.obj
-G:\Compilers\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_5e4a9.dir\testCXXCompiler.cxx.obj -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_5e4a9.exe
-G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_5e4a9.dir\link.txt --verbose=1
-G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_5e4a9.dir/objects.a
-G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_5e4a9.dir/objects.a @CMakeFiles\cmTC_5e4a9.dir\objects1.rsp
-G:\Compilers\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_5e4a9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5e4a9.exe -Wl,--out-implib,libcmTC_5e4a9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5e4a9.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_8080f.dir/testCXXCompiler.cxx.obj
+G:\Compilers\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_8080f.dir\testCXXCompiler.cxx.obj -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_8080f.exe
+G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_8080f.dir\link.txt --verbose=1
+G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_8080f.dir/objects.a
+G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_8080f.dir/objects.a @CMakeFiles\cmTC_8080f.dir\objects1.rsp
+G:\Compilers\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_8080f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8080f.exe -Wl,--out-implib,libcmTC_8080f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8080f.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_168d2/fast"
-G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_168d2.dir\build.make CMakeFiles/cmTC_168d2.dir/build
+Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_515e8/fast"
+G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_515e8.dir\build.make CMakeFiles/cmTC_515e8.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_168d2.dir/CMakeCXXCompilerABI.cpp.obj
-G:\Compilers\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_168d2.dir\CMakeCXXCompilerABI.cpp.obj -c G:\Compilers\cmake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_168d2.exe
-G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_168d2.dir\link.txt --verbose=1
-G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_168d2.dir/objects.a
-G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_168d2.dir/objects.a @CMakeFiles\cmTC_168d2.dir\objects1.rsp
-G:\Compilers\mingw32\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_168d2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_168d2.exe -Wl,--out-implib,libcmTC_168d2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Building CXX object CMakeFiles/cmTC_515e8.dir/CMakeCXXCompilerABI.cpp.obj
+G:\Compilers\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_515e8.dir\CMakeCXXCompilerABI.cpp.obj -c G:\Compilers\cmake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_515e8.exe
+G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_515e8.dir\link.txt --verbose=1
+G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_515e8.dir/objects.a
+G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_515e8.dir/objects.a @CMakeFiles\cmTC_515e8.dir\objects1.rsp
+G:\Compilers\mingw32\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_515e8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_515e8.exe -Wl,--out-implib,libcmTC_515e8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=G:\Compilers\mingw32\bin\g++.exe
 COLLECT_LTO_WRAPPER=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe
@@ -284,8 +284,8 @@ Thread model: posix
 gcc version 4.9.1 (i686-posix-dwarf-rev2, Built by MinGW-W64 project) 
 COMPILER_PATH=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/;G:/Compilers/mingw32/bin/../libexec/gcc/;G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/bin/
 LIBRARY_PATH=G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/;G:/Compilers/mingw32/bin/../lib/gcc/;G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/;G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib/;G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/;G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_168d2.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
- G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/collect2.exe -plugin G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/liblto_plugin-0.dll -plugin-opt=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccp1QZZi.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw491/i686-491-posix-dwarf-rt_v3-rev2/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_168d2.exe G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtbegin.o -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1 -LG:/Compilers/mingw32/bin/../lib/gcc -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../.. --whole-archive CMakeFiles\cmTC_168d2.dir/objects.a --no-whole-archive --out-implib libcmTC_168d2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_515e8.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/collect2.exe -plugin G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/liblto_plugin-0.dll -plugin-opt=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccScJxJX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw491/i686-491-posix-dwarf-rt_v3-rev2/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_515e8.exe G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtbegin.o -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1 -LG:/Compilers/mingw32/bin/../lib/gcc -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../.. --whole-archive CMakeFiles\cmTC_515e8.dir/objects.a --no-whole-archive --out-implib libcmTC_515e8.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtend.o
 mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
 
 
@@ -293,16 +293,16 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_168d2/fast"]
-  ignore line: [G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_168d2.dir\build.make CMakeFiles/cmTC_168d2.dir/build]
+  ignore line: [Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_515e8/fast"]
+  ignore line: [G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_515e8.dir\build.make CMakeFiles/cmTC_515e8.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_168d2.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [G:\Compilers\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_168d2.dir\CMakeCXXCompilerABI.cpp.obj -c G:\Compilers\cmake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_168d2.exe]
-  ignore line: [G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_168d2.dir\link.txt --verbose=1]
-  ignore line: [G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_168d2.dir/objects.a]
-  ignore line: [G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_168d2.dir/objects.a @CMakeFiles\cmTC_168d2.dir\objects1.rsp]
-  ignore line: [G:\Compilers\mingw32\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_168d2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_168d2.exe -Wl,--out-implib,libcmTC_168d2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_515e8.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [G:\Compilers\mingw32\bin\g++.exe     -o CMakeFiles\cmTC_515e8.dir\CMakeCXXCompilerABI.cpp.obj -c G:\Compilers\cmake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_515e8.exe]
+  ignore line: [G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_515e8.dir\link.txt --verbose=1]
+  ignore line: [G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_515e8.dir/objects.a]
+  ignore line: [G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_515e8.dir/objects.a @CMakeFiles\cmTC_515e8.dir\objects1.rsp]
+  ignore line: [G:\Compilers\mingw32\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_515e8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_515e8.exe -Wl,--out-implib,libcmTC_515e8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=G:\Compilers\mingw32\bin\g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe]
@@ -319,13 +319,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib/]
   ignore line: [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/]
   ignore line: [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_168d2.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  link line: [ G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/collect2.exe -plugin G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/liblto_plugin-0.dll -plugin-opt=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccp1QZZi.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw491/i686-491-posix-dwarf-rt_v3-rev2/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_168d2.exe G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtbegin.o -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1 -LG:/Compilers/mingw32/bin/../lib/gcc -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../.. --whole-archive CMakeFiles\cmTC_168d2.dir/objects.a --no-whole-archive --out-implib libcmTC_168d2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_515e8.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/collect2.exe -plugin G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/liblto_plugin-0.dll -plugin-opt=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccScJxJX.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw491/i686-491-posix-dwarf-rt_v3-rev2/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_515e8.exe G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtbegin.o -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1 -LG:/Compilers/mingw32/bin/../lib/gcc -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib -LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../.. --whole-archive CMakeFiles\cmTC_515e8.dir/objects.a --no-whole-archive --out-implib libcmTC_515e8.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtend.o]
     arg [G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=G:/Compilers/mingw32/bin/../libexec/gcc/i686-w64-mingw32/4.9.1/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccp1QZZi.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\SEBRU_~1\AppData\Local\Temp\ccScJxJX.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -353,7 +353,7 @@ Parsed CXX implicit link information from above output:
     arg [-u] ==> ignore
     arg [___deregister_frame_info] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_168d2.exe] ==> ignore
+    arg [cmTC_515e8.exe] ==> ignore
     arg [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/crtbegin.o] ==> ignore
     arg [-LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1] ==> dir [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1]
@@ -363,10 +363,10 @@ Parsed CXX implicit link information from above output:
     arg [-LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib] ==> dir [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../../../i686-w64-mingw32/lib]
     arg [-LG:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../..] ==> dir [G:/Compilers/mingw32/bin/../lib/gcc/i686-w64-mingw32/4.9.1/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_168d2.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_515e8.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_168d2.dll.a] ==> ignore
+    arg [libcmTC_515e8.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -411,16 +411,16 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_417d1/fast"
-G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_417d1.dir\build.make CMakeFiles/cmTC_417d1.dir/build
+Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_5bfd4/fast"
+G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_5bfd4.dir\build.make CMakeFiles/cmTC_5bfd4.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_417d1.dir/feature_tests.cxx.obj
-G:\Compilers\mingw32\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_417d1.dir\feature_tests.cxx.obj -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_417d1.exe
-G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_417d1.dir\link.txt --verbose=1
-G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_417d1.dir/objects.a
-G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_417d1.dir/objects.a @CMakeFiles\cmTC_417d1.dir\objects1.rsp
-G:\Compilers\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_417d1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_417d1.exe -Wl,--out-implib,libcmTC_417d1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_417d1.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_5bfd4.dir/feature_tests.cxx.obj
+G:\Compilers\mingw32\bin\g++.exe    -std=c++14 -o CMakeFiles\cmTC_5bfd4.dir\feature_tests.cxx.obj -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_5bfd4.exe
+G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_5bfd4.dir\link.txt --verbose=1
+G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_5bfd4.dir/objects.a
+G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_5bfd4.dir/objects.a @CMakeFiles\cmTC_5bfd4.dir\objects1.rsp
+G:\Compilers\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_5bfd4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5bfd4.exe -Wl,--out-implib,libcmTC_5bfd4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5bfd4.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
 
 
@@ -486,16 +486,16 @@ mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_3f10a/fast"
-G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_3f10a.dir\build.make CMakeFiles/cmTC_3f10a.dir/build
+Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_4c679/fast"
+G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_4c679.dir\build.make CMakeFiles/cmTC_4c679.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3f10a.dir/feature_tests.cxx.obj
-G:\Compilers\mingw32\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_3f10a.dir\feature_tests.cxx.obj -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_3f10a.exe
-G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_3f10a.dir\link.txt --verbose=1
-G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_3f10a.dir/objects.a
-G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_3f10a.dir/objects.a @CMakeFiles\cmTC_3f10a.dir\objects1.rsp
-G:\Compilers\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_3f10a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_3f10a.exe -Wl,--out-implib,libcmTC_3f10a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3f10a.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_4c679.dir/feature_tests.cxx.obj
+G:\Compilers\mingw32\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_4c679.dir\feature_tests.cxx.obj -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_4c679.exe
+G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_4c679.dir\link.txt --verbose=1
+G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_4c679.dir/objects.a
+G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_4c679.dir/objects.a @CMakeFiles\cmTC_4c679.dir\objects1.rsp
+G:\Compilers\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_4c679.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4c679.exe -Wl,--out-implib,libcmTC_4c679.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4c679.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
 
 
@@ -561,16 +561,16 @@ mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_e1a5d/fast"
-G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_e1a5d.dir\build.make CMakeFiles/cmTC_e1a5d.dir/build
+Run Build Command:"G:/Compilers/mingw32/bin/mingw32-make.exe" "cmTC_eb0b6/fast"
+G:/Compilers/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_eb0b6.dir\build.make CMakeFiles/cmTC_eb0b6.dir/build
 mingw32-make.exe[1]: Entering directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e1a5d.dir/feature_tests.cxx.obj
-G:\Compilers\mingw32\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_e1a5d.dir\feature_tests.cxx.obj -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_e1a5d.exe
-G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_e1a5d.dir\link.txt --verbose=1
-G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_e1a5d.dir/objects.a
-G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_e1a5d.dir/objects.a @CMakeFiles\cmTC_e1a5d.dir\objects1.rsp
-G:\Compilers\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_e1a5d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e1a5d.exe -Wl,--out-implib,libcmTC_e1a5d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e1a5d.dir\linklibs.rsp
+Building CXX object CMakeFiles/cmTC_eb0b6.dir/feature_tests.cxx.obj
+G:\Compilers\mingw32\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_eb0b6.dir\feature_tests.cxx.obj -c G:\GitHub\SpatialCollisionHashing\build\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_eb0b6.exe
+G:\Compilers\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_eb0b6.dir\link.txt --verbose=1
+G:\Compilers\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_eb0b6.dir/objects.a
+G:\Compilers\mingw32\bin\ar.exe cr CMakeFiles\cmTC_eb0b6.dir/objects.a @CMakeFiles\cmTC_eb0b6.dir\objects1.rsp
+G:\Compilers\mingw32\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_eb0b6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_eb0b6.exe -Wl,--out-implib,libcmTC_eb0b6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_eb0b6.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'G:/GitHub/SpatialCollisionHashing/build/CMakeFiles/CMakeTmp'
 
 

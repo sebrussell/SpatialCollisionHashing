@@ -19,6 +19,7 @@ class Hash
 	  int GetGridWidth() { return m_gridWidth; }
 	  int GetGridHeight() { return m_gridHeight; }
 	  int GetColumnAmount() { return m_columnAmount; }
+	  void CheckForCollision(std::weak_ptr<Particle> _particle);
 	private:	  
 	  std::vector<std::list<std::weak_ptr<Particle>>> m_hashTable;		 
       int m_tableSize, m_gridWidth, m_gridHeight, m_columnAmount;

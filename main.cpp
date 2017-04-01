@@ -10,14 +10,15 @@ int main(int argc, char* args[])
 {	
 	std::shared_ptr<Graphics> sdl(new Graphics);
 	std::shared_ptr<Hash> hashTable(new Hash(sdl->GetScreenWidth(), sdl->GetScreenHeight()));
-	srand(time(NULL));
+	srand(time(NULL));	
 	
 	std::vector<std::shared_ptr<Particle>> particlePool;
+	int amountOfParticles = 50000;
 	
 	#pragma omp parallel
 	{
 		#pragma omp for
-		for(int i = 0; i < 10000; i++)
+		for(int i = 0; i < 50000; i++)
 		{			
 			#pragma omp critical 
 			{
@@ -31,14 +32,20 @@ int main(int argc, char* args[])
 	
 	
 	
-	while(sdl->FirstUpdate() != false)
+	while(sdl->FirstUpdate() != SDLK_ESCAPE)
 	{
+		sdl->FPS(false);
 		sdl->DrawLine(hashTable);
-		for(int i = 0; i < particlePool.size(); i++)
+		#pragma omp parallel
 		{
-			hashTable->UpdateTable(particlePool.at(i));	
-			particlePool.at(i)->Update(sdl);		
-		}	
+			#pragma omp for
+			for(int i = 0; i < particlePool.size(); i++)
+			{
+				hashTable->UpdateTable(particlePool.at(i));
+				hashTable->CheckForCollision(particlePool.at(i));
+				particlePool.at(i)->Update(sdl);				
+			}	
+		}
 		
 		
 		sdl->FlipScreen();

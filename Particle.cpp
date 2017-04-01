@@ -10,6 +10,7 @@ Particle::Particle()
 	m_velocity.y = ((rand() % 200) - 100);
 	m_velocity.x /= rand() % 5 + 1;
 	m_velocity.y /= rand() % 5 + 1;
+	m_magnitude = pow(m_velocity.x, 2) + pow(m_velocity.y, 2);
 }
 
 Particle::~Particle()

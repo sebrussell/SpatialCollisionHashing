@@ -14,6 +14,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/SDL2-2.0.5_minGW/i686-w64-mingw32/include/SDL2"
+  "../src/SDL2_ttf-2.0.14_minGW/i686-w64-mingw32/include/SDL2"
   )
 
 # Targets to which this target links.

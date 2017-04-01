@@ -2,6 +2,7 @@
 #include "Particle.h"
 #include "Hash.h"
 
+
 Graphics::Graphics()
 {
 	SCREEN_HEIGHT = 800;
@@ -36,7 +37,8 @@ Graphics::Graphics()
 				printf("SDL could not create renderer! SDL_Error: %s\n", SDL_GetError());
 			}			
 		}		
-	}
+	}	
+
 }
 
 Graphics::~Graphics()
@@ -45,7 +47,7 @@ Graphics::~Graphics()
 	SDL_Quit();
 }
 
-bool Graphics::FirstUpdate()
+SDL_Keycode Graphics::FirstUpdate()
 {	
 	m_deltaTime = (double)(clock() - m_end) / 1000.0f;
 	m_end = clock();
@@ -60,16 +62,16 @@ bool Graphics::FirstUpdate()
 	
 	if(event.type == SDL_QUIT)
 	{		
-		return false;
+		return SDLK_ESCAPE;
 	}
 	if(event.type == SDL_KEYDOWN)
 	{
-		if(event.key.keysym.sym == SDLK_ESCAPE)
+		if(event.key.keysym.sym == SDLK_w)
 		{
-			return false;			
+			std::cout << m_averageFPS << std::endl;
 		}
+		return event.key.keysym.sym;
 	}
-	
 	
 	return true;	
 }
@@ -91,6 +93,25 @@ void Graphics::DrawLine(std::weak_ptr<Hash> _hashTable)
 
 void Graphics::Draw(vec2 _position, int _hashValue)
 {
-	SDL_SetRenderDrawColor(renderer, 0, 100, _hashValue, 255);	
+	if(_hashValue % 3 == 0)
+	{
+		SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);	
+	}
+	else if(_hashValue % 3 == 1)
+	{
+		SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);	
+	}
+	else{
+		SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+	}
 	SDL_RenderDrawPoint(renderer, _position.x, _position.y);
+}
+
+void Graphics::FPS(bool _display)
+{
+	int currentFPS = 1.0 / m_deltaTime;
+
+	m_averageFPS = (m_averageFPS + currentFPS) / 2;
+	
+	
 }

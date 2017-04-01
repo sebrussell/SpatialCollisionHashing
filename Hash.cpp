@@ -4,13 +4,12 @@
 
 Hash::Hash(int _screenWidth, int _screenHeight)
 {
-	m_tableSize = 196;
+	m_tableSize = 5000;
 	for(int i = 0; i < m_tableSize; i++)
 	{
 		std::list<std::weak_ptr<Particle>> temp;
 		m_hashTable.push_back(temp);
-	}
-	
+	}	
 	m_columnAmount = pow(m_tableSize, 0.5);
 	m_gridWidth = _screenWidth / m_columnAmount;
 	m_gridHeight = _screenHeight / m_columnAmount;
@@ -61,3 +60,27 @@ int Hash::GetHashValue(vec2 _position)
 	}
 	return temp;
 }
+
+void Hash::CheckForCollision(std::weak_ptr<Particle> _particle)
+{
+	std::shared_ptr<Particle> tempParticle = _particle.lock();
+	for(std::list<std::weak_ptr<Particle>>::iterator it = m_hashTable.at(tempParticle->GetParticleHash()).begin(); it != m_hashTable.at(tempParticle->GetParticleHash()).end(); it++)
+	{
+		if(it->lock()->GetPosition().x == tempParticle->GetPosition().x && it->lock()->GetPosition().y == tempParticle->GetPosition().y)
+		{
+			if(it->lock() != tempParticle)
+			{
+				if(it->lock()->GetMagintude() > tempParticle->GetMagintude())
+				{
+					tempParticle->SetVelocity(it->lock()->GetVelocity());
+				}
+				else{
+					it->lock()->SetVelocity(tempParticle->GetVelocity());
+				}
+			}
+			//std::cout << "Collision" << std::endl;
+			
+		}			
+	}
+}
+
