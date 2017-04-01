@@ -46,6 +46,8 @@ CMakeFiles/parallel_test.dir/Graphics.cpp.obj: ../src/SDL2-2.0.5_minGW/i686-w64-
 CMakeFiles/parallel_test.dir/Graphics.cpp.obj: ../src/SDL2-2.0.5_minGW/i686-w64-mingw32/include/SDL2/close_code.h
 CMakeFiles/parallel_test.dir/Graphics.cpp.obj: ../Graphics.cpp
 CMakeFiles/parallel_test.dir/Graphics.cpp.obj: ../Graphics.h
+CMakeFiles/parallel_test.dir/Graphics.cpp.obj: ../Hash.h
+CMakeFiles/parallel_test.dir/Graphics.cpp.obj: ../Particle.h
 
 CMakeFiles/parallel_test.dir/Hash.cpp.obj: ../Hash.cpp
 CMakeFiles/parallel_test.dir/Hash.cpp.obj: ../Hash.h
@@ -95,6 +97,7 @@ CMakeFiles/parallel_test.dir/Particle.cpp.obj: ../src/SDL2-2.0.5_minGW/i686-w64-
 CMakeFiles/parallel_test.dir/Particle.cpp.obj: ../src/SDL2-2.0.5_minGW/i686-w64-mingw32/include/SDL2/begin_code.h
 CMakeFiles/parallel_test.dir/Particle.cpp.obj: ../src/SDL2-2.0.5_minGW/i686-w64-mingw32/include/SDL2/close_code.h
 CMakeFiles/parallel_test.dir/Particle.cpp.obj: ../Graphics.h
+CMakeFiles/parallel_test.dir/Particle.cpp.obj: ../Hash.h
 CMakeFiles/parallel_test.dir/Particle.cpp.obj: ../Particle.cpp
 CMakeFiles/parallel_test.dir/Particle.cpp.obj: ../Particle.h
 
@@ -142,6 +145,7 @@ CMakeFiles/parallel_test.dir/main.cpp.obj: ../src/SDL2-2.0.5_minGW/i686-w64-ming
 CMakeFiles/parallel_test.dir/main.cpp.obj: ../src/SDL2-2.0.5_minGW/i686-w64-mingw32/include/SDL2/begin_code.h
 CMakeFiles/parallel_test.dir/main.cpp.obj: ../src/SDL2-2.0.5_minGW/i686-w64-mingw32/include/SDL2/close_code.h
 CMakeFiles/parallel_test.dir/main.cpp.obj: ../Graphics.h
+CMakeFiles/parallel_test.dir/main.cpp.obj: ../Hash.h
 CMakeFiles/parallel_test.dir/main.cpp.obj: ../Particle.h
 CMakeFiles/parallel_test.dir/main.cpp.obj: ../main.cpp
 

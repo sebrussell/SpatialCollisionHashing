@@ -1,4 +1,6 @@
 #include "Graphics.h"
+#include "Particle.h"
+#include "Hash.h"
 
 Graphics::Graphics()
 {
@@ -46,20 +48,15 @@ Graphics::~Graphics()
 bool Graphics::FirstUpdate()
 {	
 	m_deltaTime = (double)(clock() - m_end) / 1000.0f;
-	// if(m_deltaTime == 0)
-	// {
-		// m_deltaTime = 0.001;
-	// }
 	m_end = clock();
-	//std::cout << m_deltaTime << std::endl;
-	
 	
 	SDL_PollEvent(&event);		
 
 	SDL_SetRenderDrawColor(renderer, 0, 0, 0,0);
 	
 	SDL_RenderClear(renderer);
-	SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
+	//SDL_SetRenderDrawColor(renderer, 108, 149, 90, 255);
+	SDL_SetRenderDrawColor(renderer, 174, 174, 174, 100);
 	
 	if(event.type == SDL_QUIT)
 	{		
@@ -79,11 +76,21 @@ bool Graphics::FirstUpdate()
 
 void Graphics::FlipScreen()
 {	
-	SDL_RenderPresent(renderer);
-    	
+	SDL_RenderPresent(renderer);    	
 }
 
-void Graphics::Draw(int _positionX, int _positionY)
+void Graphics::DrawLine(std::weak_ptr<Hash> _hashTable)
 {
-	SDL_RenderDrawPoint(renderer, _positionX, _positionY);
+	std::shared_ptr<Hash> tempHashTable = _hashTable.lock();
+	for(int i = 0; i < tempHashTable->GetColumnAmount(); i++)
+	{
+		SDL_RenderDrawLine(renderer, tempHashTable->GetGridWidth() * i, 0, tempHashTable->GetGridWidth() * i, SCREEN_HEIGHT);
+		SDL_RenderDrawLine(renderer, 0, tempHashTable->GetGridHeight() * i, SCREEN_WIDTH, tempHashTable->GetGridHeight() * i);
+	}
+}
+
+void Graphics::Draw(vec2 _position, int _hashValue)
+{
+	SDL_SetRenderDrawColor(renderer, 0, 100, _hashValue, 255);	
+	SDL_RenderDrawPoint(renderer, _position.x, _position.y);
 }

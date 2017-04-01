@@ -1,5 +1,6 @@
 #include "Particle.h"
 #include "Graphics.h"
+#include "Hash.h"
 
 Particle::Particle()
 {	
@@ -9,7 +10,6 @@ Particle::Particle()
 	m_velocity.y = ((rand() % 200) - 100);
 	m_velocity.x /= rand() % 5 + 1;
 	m_velocity.y /= rand() % 5 + 1;
-	m_currentBucketID = 0;
 }
 
 Particle::~Particle()
@@ -40,5 +40,5 @@ void Particle::Update(std::weak_ptr<Graphics> _sdl)
 		m_position.y = 0;
 	}
 	
-	_sdl.lock()->Draw(m_position.x, m_position.y);
+	_sdl.lock()->Draw(m_position, m_hashValue);
 }

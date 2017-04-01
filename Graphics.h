@@ -4,6 +4,9 @@
 #include <iostream>
 #include <ctime>
 
+struct vec2;
+class Hash;
+
 class Graphics
 {
 	public:
@@ -11,7 +14,8 @@ class Graphics
 	  ~Graphics();
       bool FirstUpdate();	
 	  void FlipScreen();
-	  void Draw(int _positionX, int _positionY);
+	  void Draw(vec2 _position, int _hashValue);
+	  void DrawLine(std::weak_ptr<Hash> _hashTable);
 	  int GetScreenWidth() { return SCREEN_WIDTH; }
 	  int GetScreenHeight() { return SCREEN_HEIGHT; }
 	  double GetDeltaTime() { return m_deltaTime; }
