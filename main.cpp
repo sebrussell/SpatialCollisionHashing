@@ -13,12 +13,12 @@ int main(int argc, char* args[])
 	srand(time(NULL));	
 	
 	std::vector<std::shared_ptr<Particle>> particlePool;
-	int amountOfParticles = 50000;
+	int amountOfParticles = 10000;
 	
 	#pragma omp parallel
 	{
 		#pragma omp for
-		for(int i = 0; i < 50000; i++)
+		for(int i = 0; i < 10000; i++)
 		{			
 			#pragma omp critical 
 			{
@@ -32,13 +32,30 @@ int main(int argc, char* args[])
 	
 	
 	
+	// while(sdl->FirstUpdate() != SDLK_ESCAPE)
+	// {
+		// sdl->FPS(false);
+		// sdl->DrawLine(hashTable);
+		// #pragma omp parallel
+		// {
+			// #pragma omp for
+			// for(int i = 0; i < particlePool.size(); i++)
+			// {
+				// hashTable->UpdateTable(particlePool.at(i));
+				// hashTable->CheckForCollision(particlePool.at(i));
+				// particlePool.at(i)->Update(sdl);				
+			// }	
+		// }
+		
+		
+		// sdl->FlipScreen();
+	// }
+	
 	while(sdl->FirstUpdate() != SDLK_ESCAPE)
 	{
 		sdl->FPS(false);
 		sdl->DrawLine(hashTable);
-		#pragma omp parallel
 		{
-			#pragma omp for
 			for(int i = 0; i < particlePool.size(); i++)
 			{
 				hashTable->UpdateTable(particlePool.at(i));

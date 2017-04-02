@@ -4,7 +4,7 @@
 
 Hash::Hash(int _screenWidth, int _screenHeight)
 {
-	m_tableSize = 5000;
+	m_tableSize = 1000;
 	for(int i = 0; i < m_tableSize; i++)
 	{
 		std::list<std::weak_ptr<Particle>> temp;
