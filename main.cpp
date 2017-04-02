@@ -13,12 +13,16 @@ int main(int argc, char* args[])
 	srand(time(NULL));	
 	
 	std::vector<std::shared_ptr<Particle>> particlePool;
+	int maximumAmountOfParticles = 50000;
 	int amountOfParticles = 10000;
+	
+	
+	bool exit = false;
 	
 	#pragma omp parallel
 	{
 		#pragma omp for
-		for(int i = 0; i < 10000; i++)
+		for(int i = 0; i < maximumAmountOfParticles; i++)
 		{			
 			#pragma omp critical 
 			{
@@ -26,47 +30,48 @@ int main(int argc, char* args[])
 				particlePool.push_back(particle);
 			}
 		}
-	}
+	}	
 	
-	hashTable->GenerateHashTable(particlePool);
+	hashTable->GenerateHashTable(particlePool, amountOfParticles, sdl->GetScreenWidth(), sdl->GetScreenHeight());
 	
-	
-	
-	// while(sdl->FirstUpdate() != SDLK_ESCAPE)
-	// {
-		// sdl->FPS(false);
-		// sdl->DrawLine(hashTable);
-		// #pragma omp parallel
-		// {
-			// #pragma omp for
-			// for(int i = 0; i < particlePool.size(); i++)
-			// {
-				// hashTable->UpdateTable(particlePool.at(i));
-				// hashTable->CheckForCollision(particlePool.at(i));
-				// particlePool.at(i)->Update(sdl);				
-			// }	
-		// }
-		
-		
-		// sdl->FlipScreen();
-	// }
-	
-	while(sdl->FirstUpdate() != SDLK_ESCAPE)
+	while(exit == false)
 	{
+		switch(sdl->FirstUpdate())
+		{
+			case SDLK_ESCAPE:
+				exit = true;
+				break;
+			case SDLK_UP:
+				if(amountOfParticles + 1000 <= particlePool.size())
+				{
+					amountOfParticles += 1000;
+					hashTable->GenerateHashTable(particlePool, amountOfParticles, sdl->GetScreenWidth(), sdl->GetScreenHeight());
+				}
+				break;
+			case SDLK_DOWN:
+				if(amountOfParticles - 1000 >= 2000)
+				{
+					amountOfParticles -= 1000;
+					hashTable->GenerateHashTable(particlePool, amountOfParticles, sdl->GetScreenWidth(), sdl->GetScreenHeight());
+				}
+				break;
+			case SDLK_q:
+				std::cout << "Average FPS of: " << sdl->GetAverageFPS() << " with " << amountOfParticles << " particles and " << hashTable->GetTableSize()  << " buckets." << std::endl;
+				break;
+		}				
 		sdl->FPS(false);
 		sdl->DrawLine(hashTable);
+		#pragma omp parallel
 		{
-			for(int i = 0; i < particlePool.size(); i++)
+			#pragma omp for
+			for(int i = 0; i < amountOfParticles; i++)
 			{
 				hashTable->UpdateTable(particlePool.at(i));
 				hashTable->CheckForCollision(particlePool.at(i));
 				particlePool.at(i)->Update(sdl);				
 			}	
-		}
-		
-		
+		}		
 		sdl->FlipScreen();
 	}
-
   return 0;
 }

@@ -5,14 +5,10 @@
 Hash::Hash(int _screenWidth, int _screenHeight)
 {
 	m_tableSize = 1000;
-	for(int i = 0; i < m_tableSize; i++)
-	{
-		std::list<std::weak_ptr<Particle>> temp;
-		m_hashTable.push_back(temp);
-	}	
+	m_targetParticlesPerBucket = 10;
 	m_columnAmount = pow(m_tableSize, 0.5);
-	m_gridWidth = _screenWidth / m_columnAmount;
-	m_gridHeight = _screenHeight / m_columnAmount;
+	m_gridWidth = ceil(_screenWidth / m_columnAmount);
+	m_gridHeight = ceil(_screenHeight / m_columnAmount);	
 }
 
 Hash::~Hash()
@@ -20,9 +16,20 @@ Hash::~Hash()
 
 }
 
-void Hash::GenerateHashTable(std::vector<std::shared_ptr<Particle>> _particles)
-{
-	for(int i = 0; i < _particles.size(); i++)
+void Hash::GenerateHashTable(std::vector<std::shared_ptr<Particle>> _particles, int _amountOfParticles, int _screenWidth, int _screenHeight)
+{	
+	m_tableSize = _amountOfParticles / m_targetParticlesPerBucket;
+	m_columnAmount = pow(m_tableSize, 0.5);
+	m_gridWidth = ceil(_screenWidth / m_columnAmount);
+	m_gridHeight = ceil(_screenHeight / m_columnAmount);
+	m_hashTable.clear();
+	for(int i = 0; i < m_tableSize; i++)
+	{
+		std::list<std::weak_ptr<Particle>> temp;
+		m_hashTable.push_back(temp);
+	}	
+	
+	for(int i = 0; i < _amountOfParticles; i++)
 	{		
 		int hashValue = GetHashValue(_particles.at(i)->GetPosition());			
 		m_hashTable.at(hashValue).push_back(_particles.at(i));
@@ -55,7 +62,6 @@ int Hash::GetHashValue(vec2 _position)
 	int temp = (int)(floor(_position.x / m_gridWidth)) + ((floor(_position.y / m_gridHeight) * m_columnAmount));
 	if(temp >= m_tableSize)
 	{
-		//std::cout << _position.x << " , " << _position.y << " width: " << m_gridWidth << " height: " << m_gridHeight << " column: " << m_columnAmount << std::endl;
 		temp = m_tableSize - 1;
 	}
 	return temp;
@@ -77,10 +83,9 @@ void Hash::CheckForCollision(std::weak_ptr<Particle> _particle)
 				else{
 					it->lock()->SetVelocity(tempParticle->GetVelocity());
 				}
-			}
-			//std::cout << "Collision" << std::endl;
-			
+			}			
 		}			
 	}
 }
+
 
