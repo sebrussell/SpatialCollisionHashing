@@ -23,4 +23,5 @@ class Hash
 	private:	  
 	  std::vector<std::list<std::weak_ptr<Particle>>> m_hashTable;		 			//this is the hash table which is a vector is linked lists to particles
       double m_tableSize, m_gridWidth, m_gridHeight, m_columnAmount;				//different info on the table size etc
+	  int m_targetParticlesPerBucket;
 };

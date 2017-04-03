@@ -18,9 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Graphics.cpp" />
+    <ClCompile Include="..\..\..\Hash.cpp" />
+    <ClCompile Include="..\..\..\main.cpp" />
+    <ClCompile Include="..\..\..\Particle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Graphics.h" />
+    <ClInclude Include="..\..\..\Hash.h" />
+    <ClInclude Include="..\..\..\Particle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C7CD0DC1-FCE8-481F-AE16-3D5B096019B6}</ProjectGuid>
-    <RootNamespace>SpatialHashing</RootNamespace>
+    <ProjectGuid>{DD8AA4BB-672A-4C9C-B7C5-83440DB4D035}</ProjectGuid>
+    <RootNamespace>SpatialCollision</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -75,9 +89,6 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
-    <Link>
-      <SubSystem>Windows</SubSystem>
-    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -112,24 +123,14 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Graphics.cpp" />
-    <ClCompile Include="..\..\..\Hash.cpp" />
-    <ClCompile Include="..\..\..\main.cpp" />
-    <ClCompile Include="..\..\..\Particle.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Graphics.h" />
-    <ClInclude Include="..\..\..\Hash.h" />
-    <ClInclude Include="..\..\..\Particle.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="..\packages\sdl2.redist.2.0.5\build\native\sdl2.redist.targets" Condition="Exists('..\packages\sdl2.redist.2.0.5\build\native\sdl2.redist.targets')" />
     <Import Project="..\packages\sdl2.2.0.5\build\native\sdl2.targets" Condition="Exists('..\packages\sdl2.2.0.5\build\native\sdl2.targets')" />
+    <Import Project="..\packages\freetype.redist.2.6.2.1\build\native\freetype.redist.targets" Condition="Exists('..\packages\freetype.redist.2.6.2.1\build\native\freetype.redist.targets')" />
+    <Import Project="..\packages\sdl2.v140.redist.2.0.4\build\native\sdl2.v140.redist.targets" Condition="Exists('..\packages\sdl2.v140.redist.2.0.4\build\native\sdl2.v140.redist.targets')" />
+    <Import Project="..\packages\sdl2_ttf.v140.redist.2.0.14\build\native\sdl2_ttf.v140.redist.targets" Condition="Exists('..\packages\sdl2_ttf.v140.redist.2.0.14\build\native\sdl2_ttf.v140.redist.targets')" />
+    <Import Project="..\packages\sdl2_ttf.v140.2.0.14\build\native\sdl2_ttf.v140.targets" Condition="Exists('..\packages\sdl2_ttf.v140.2.0.14\build\native\sdl2_ttf.v140.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -137,5 +138,9 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\sdl2.redist.2.0.5\build\native\sdl2.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sdl2.redist.2.0.5\build\native\sdl2.redist.targets'))" />
     <Error Condition="!Exists('..\packages\sdl2.2.0.5\build\native\sdl2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sdl2.2.0.5\build\native\sdl2.targets'))" />
+    <Error Condition="!Exists('..\packages\freetype.redist.2.6.2.1\build\native\freetype.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\freetype.redist.2.6.2.1\build\native\freetype.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\sdl2.v140.redist.2.0.4\build\native\sdl2.v140.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sdl2.v140.redist.2.0.4\build\native\sdl2.v140.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\sdl2_ttf.v140.redist.2.0.14\build\native\sdl2_ttf.v140.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sdl2_ttf.v140.redist.2.0.14\build\native\sdl2_ttf.v140.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\sdl2_ttf.v140.2.0.14\build\native\sdl2_ttf.v140.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\sdl2_ttf.v140.2.0.14\build\native\sdl2_ttf.v140.targets'))" />
   </Target>
 </Project>

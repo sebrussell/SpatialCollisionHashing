@@ -1,6 +1,7 @@
 #include "Graphics.h"
 #include "Particle.h"			//the header files that need to be included. Ok to include these inside cpp files
 #include "Hash.h"
+#include "SDL_ttf.h"
 
 
 Graphics::Graphics()

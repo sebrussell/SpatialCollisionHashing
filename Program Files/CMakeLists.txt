@@ -11,8 +11,8 @@ else()
   include_directories(${PROJECT_SOURCE_DIR}/src/SDL2-2.0.5_minGW/i686-w64-mingw32/include/SDL2)
   link_directories(${PROJECT_SOURCE_DIR}/src/SDL2-2.0.5_minGW/i686-w64-mingw32/lib)  
 
-  include_directories(${PROJECT_SOURCE_DIR}/src/SDL2_ttf-2.0.14_minGW/i686-w64-mingw32/include/SDL2)
-  link_directories(${PROJECT_SOURCE_DIR}/src/SDL2_ttf-2.0.14_minGW/i686-w64-mingw32/lib)  
+  include_directories(${PROJECT_SOURCE_DIR}/src/SDL2_ttf-2.0.14/i686-w64-mingw32/include/SDL2)
+  link_directories(${PROJECT_SOURCE_DIR}/src/SDL2_ttf-2.0.14/i686-w64-mingw32/lib)  
 endif()
 
 
@@ -25,7 +25,7 @@ add_executable(parallel_test
   Hash.cpp
 )
 
-target_link_libraries(parallel_test SDL2)
+target_link_libraries(parallel_test SDL2 SDL2_ttf)
 
 
 
