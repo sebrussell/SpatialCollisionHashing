@@ -1,0 +1,1 @@
+ -LG:/GitHub/SpatialCollisionHashing/Files/src/SDL2-2.0.5_minGW/i686-w64-mingw32/lib  -LG:/GitHub/SpatialCollisionHashing/Files/src/SDL2_ttf-2.0.14/i686-w64-mingw32/lib -lSDL2 -lSDL2_ttf -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

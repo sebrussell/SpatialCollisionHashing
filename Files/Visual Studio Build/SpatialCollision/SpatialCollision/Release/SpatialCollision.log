@@ -1,0 +1,15 @@
+﻿  Graphics.cpp
+g:\github\spatialcollisionhashing\files\Particle.h(23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+g:\github\spatialcollisionhashing\files\Hash.h(18): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\github\spatialcollisionhashing\files\Hash.h(19): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\github\spatialcollisionhashing\files\Hash.h(20): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\github\spatialcollisionhashing\files\Hash.h(21): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+..\..\..\Graphics.cpp(124): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+..\..\..\Graphics.cpp(129): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating code
+  1 of 558 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    16 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SpatialCollision.vcxproj -> G:\GitHub\SpatialCollisionHashing\Files\Visual Studio Build\SpatialCollision\Release\SpatialCollision.exe
+  SpatialCollision.vcxproj -> G:\GitHub\SpatialCollisionHashing\Files\Visual Studio Build\SpatialCollision\Release\SpatialCollision.pdb (Full PDB)

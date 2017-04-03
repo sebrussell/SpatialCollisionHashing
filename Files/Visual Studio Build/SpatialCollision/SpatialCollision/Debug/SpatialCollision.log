@@ -1,0 +1,34 @@
+﻿  Particle.cpp
+g:\spatialcollisionhashing\program files\particle.h(23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(18): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(19): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(20): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(21): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\particle.cpp(13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  main.cpp
+g:\spatialcollisionhashing\program files\particle.h(23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(18): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(19): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(20): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(21): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\main.cpp(13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+g:\spatialcollisionhashing\program files\main.cpp(45): warning C4018: '<=': signed/unsigned mismatch
+  Hash.cpp
+g:\spatialcollisionhashing\program files\hash.h(18): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(19): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(20): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(21): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\particle.h(23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.cpp(62): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.cpp(65): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Graphics.cpp
+g:\spatialcollisionhashing\program files\particle.h(23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(18): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(19): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(20): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\hash.h(21): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\graphics.cpp(105): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+g:\spatialcollisionhashing\program files\graphics.cpp(110): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  SpatialCollision.vcxproj -> G:\SpatialCollisionHashing\Program Files\Visual Studio Build\SpatialCollision\Debug\SpatialCollision.exe
+  SpatialCollision.vcxproj -> G:\SpatialCollisionHashing\Program Files\Visual Studio Build\SpatialCollision\Debug\SpatialCollision.pdb (Partial PDB)
